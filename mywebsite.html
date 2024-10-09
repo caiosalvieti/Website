@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caio Salvieti Da Silva</title>
+    <style>
+        body {
+            font-family: 'Lucida Console', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Menu de Navegação */
+        nav {
+            background-color: #343a40;
+            padding: 15px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1em;
+        }
+
+        nav ul li a:hover {
+            color: #007bff;
+        }
+
+        header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        header img {
+            width: 300px;
+            height: 300px;
+            border-radius: 40%;
+            object-fit: cover; /* Isso mantém a proporção da imagem */
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            margin-right: 190px;
+        }
+
+        header div {
+            text-align: left;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2em;
+            font-weight: bold;
+        }
+
+        header p {
+            margin: 5px 0;
+            font-size: 1em;
+        }
+
+        section {
+            padding: 30px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 0px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #343a40;
+            font-size: 1.6em;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #dcdcdc;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 1.2em;
+            color: #555;
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #343a40;
+            color: #fff;
+            font-size: 0.9em;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            section {
+                padding: 20px;
+            }
+
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            header p {
+                font-size: 0.9em;
+            }
+
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin-bottom: 10px;
+            }
+
+            header {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            header img {
+                margin-bottom: 20px;
+                margin-right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Menu de Navegação -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="https://github.com/caiosalvieti" target="_blank">GitHub</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <img src="Eu.jpg" alt="Profile Picture"> <!-- Imagem no canto esquerdo -->
+        <div>
+            <h1>Caio Salvieti Da Silva</h1>
+            <p>Data Science and Artificial Intelligence Student</p>
+            <p><a href="mailto:caiosalvieti8@gmail.com">caiosalvieti8@gmail.com</a> | +55 19 98190-6039</p>
+            <p><a href="https://www.linkedin.com/in/caio-salvieti-da-silva-303610265/" target="_blank">LinkedIn: Caio Salvieti Da Silva</a></p>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>Professional Summary</h2>
+        <p>I am Caio, currently studying Data Science and Artificial Intelligence. I am pursuing certifications in AWS, LINUX, and SQL to enhance my skills in Big Data, data architecture, and machine learning. I enjoy programming in Python and I am working on projects focused on mental health and business with data science in the future.</p>
+        <h2>Professional Experience</h2>
+        <h3>Line Cook | Snowshoe Mountain Ski Resort, WV (11/2023 - 03/2024)</h3>
+        <ul>
+            <li>Improved kitchen efficiency by organizing tasks and workstations.</li>
+            <li>Collaborated with the team to maintain a safe and clean work environment.</li>
+        </ul>
+
+        <h3>Business Development Representative | Dotus Marketing (01/2022 - 12/2023)</h3>
+        <ul>
+            <li>Successfully identified and pursued qualified leads.</li>
+            <li>Managed social media and optimized advertising campaigns to generate high-quality leads.</li>
+        </ul>
+
+        <h3>Administrative Assistant | Espaço Unique (01/2020 - 12/2022)</h3>
+        <ul>
+            <li>Handled administrative tasks and managed calls, emails, and meetings with clients.</li>
+        </ul>
+        <h2>Projects</h2>
+        <h3>Diabetes Analysis with Python</h3>
+        <p>Project focused on patient data analysis to predict diabetes using machine learning models.</p>
+        
+        <h3>Dropshipping Platform</h3>
+        <p>Development of a platform to facilitate supplier integration and automate e-commerce processes.</p>
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Big Data</li>
+            <li>SQL</li>
+            <li>Linux</li>
+            <li>Digital Marketing</li>
+        </ul>
+
+        <h2>Languages</h2>
+        <ul>
+            <li>Portuguese: Native</li>
+            <li>English: Advanced</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© 2024 Caio Salvieti Da Silva</p>
+    </footer>
+</body>
+</html>
